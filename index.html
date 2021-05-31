@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Duis a massa sodales, mollis elit non, gravida libero."
+    />
+    <meta
+      name="keywords"
+      content="arquitectura, arquitecto, mexico, ingeniero, ingeniería, obras, obrero, obreros, construcciones, construir, architect, architecture, engineer, engineering, worker, construction, build, buildings"
+    />
+    <meta property="og:title" content="AIRhitect" />
+    <meta
+      property="og:description"
+      content="Duis a massa sodales, mollis elit non, gravida libero."
+    />
+    <meta property="og:image" content="img/logo-alt.png" />
+    <meta property="og:url" content="https://www.airhitect.netlify.app" />
+    <meta property="og:site_name" content="Airhitect.netlify.app" />
+    <meta property="twitter:title" content="AIRhitect" />
+    <meta
+      property="twitter:description"
+      content="Duis a massa sodales, mollis elit non, gravida libero."
+    />
+    <meta property="twitter:image" content="img/logo-alt.png" />
+    <meta property="twitter:url" content="https://www.airhitect.netlify.app" />
+    <meta property="twitter:site_name" content="Airhitect.netlify.app" />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <title>AIRhitect</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <div class="header__menu">
+        <button class="header__menu-btn">
+          <i class="fas fa-bars"></i> <span>menu</span>
+        </button>
+        <nav class="header__menu-items">
+          <a href="#home">home</a>
+          <a href="#about">about us</a>
+          <a href="#projects">works</a>
+          <a href="#team">our team</a>
+          <a href="#contact">find us</a>
+        </nav>
+      </div>
+      <a href="index.html"
+        ><img src="img/logo.svg" alt="AIRhitect Logo" class="header__logo"
+      /></a>
+
+      <a href="#contact" class="header__contact"
+        ><i class="fas fa-phone"></i> contact</a
+      >
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section id="home">
+        <h1 class="home__headline">
+          <span>Duis a massa</span>
+          <span>sodales, mollis</span>
+          <span>elit non,</span>
+          <span>gravida libero.</span>
+        </h1>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <h2 class="section__title">about us</h2>
+
+        <hr />
+
+        <h1>
+          Mauris tortor leo, volutpat ut lacus at, maximus eleifend dolor.
+          <span>Orci varius natoque penatibus et magnis dis</span> parturient
+          montes, nascetur ridicuvlus mus.
+        </h1>
+
+        <hr />
+
+        <div class="about__text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            laudantium mollitia quod nesciunt ab non doloribus, maxime natus in
+            et?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            laudantium mollitia quod nesciunt ab non doloribus, maxime natus in
+            et?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            laudantium mollitia quod nesciunt ab non doloribus, maxime natus in
+            et?
+          </p>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <div class="projects__large-bg">
+          <img
+            src="img/projects-bg--left.png"
+            alt="Projects left background image"
+          />
+          <img
+            src="img/projects-bg--mid.png"
+            alt="Projects mid background image"
+          />
+          <img
+            class="right-bg"
+            src="img/projects-bg--right.png"
+            alt="Projects right background image"
+          />
+        </div>
+
+        <h2 class="section__title">projects</h2>
+
+        <button class="projects__btn left-arrow">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <button class="projects__btn right-arrow">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <article class="projects__info">
+          <h3>Project name</h3>
+          <p>Vivamus imperdiet hendrerit leo quis fringilla.</p>
+        </article>
+
+        <article class="projects__modal">
+          <div class="modal__box">
+            <button class="modal__close"><i class="fas fa-times"></i></button>
+
+            <div class="modal__left">
+              <img
+                src="img/projects-bg.png"
+                alt="Project 1"
+                class="modal__img"
+              />
+
+              <button class="projects__btn left-arrow modal__left-arrow">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+
+              <button class="projects__btn right-arrow modal__right-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="modal__right">
+              <h1>Project name</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae corporis beatae ab qui, quidem alias error nesciunt
+                maiores cupiditate culpa.
+              </p>
+
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Explicabo culpa ipsam voluptas vitae dolores dolore sit nemo quo
+                illum corporis eligendi saepe modi quis quibusdam porro
+                exercitationem dolorum molestiae facilis, ex aspernatur
+                distinctio impedit. Blanditiis fugiat autem dicta debitis,
+                accusantium ducimus inventore eligendi saepe quia culpa quos
+                atque dolor aliquam minima, aut voluptates maxime facere libero,
+                enim aperiam illum mollitia.
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, rem!
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- TEAM -->
+      <section id="team">
+        <h2 class="section__title">our team</h2>
+
+        <article class="team__card">
+          <img src="img/colleague.svg" alt="Colleague profile pic" />
+          <h3>Colleague Name</h3>
+          <h4>CEO</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            deserunt illum cupiditate modi ratione animi dicta accusamus
+            aspernatur iusto vero.
+          </p>
+        </article>
+
+        <article class="team__card">
+          <img src="img/colleague.svg" alt="Colleague profile pic" />
+          <h3>Colleague Name</h3>
+          <h4>Administration</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            deserunt illum cupiditate modi ratione animi dicta accusamus
+            aspernatur iusto vero.
+          </p>
+        </article>
+
+        <article class="team__card">
+          <img src="img/colleague.svg" alt="Colleague profile pic" />
+          <h3>Colleague Name</h3>
+          <h4>Architect</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            deserunt illum cupiditate modi ratione animi dicta accusamus
+            aspernatur iusto vero.
+          </p>
+        </article>
+
+        <article class="team__card">
+          <img src="img/colleague.svg" alt="Colleague profile pic" />
+          <h3>Colleague Name</h3>
+          <h4>Architect</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            deserunt illum cupiditate modi ratione animi dicta accusamus
+            aspernatur iusto vero.
+          </p>
+        </article>
+
+        <article class="team__card">
+          <img src="img/colleague.svg" alt="Colleague profile pic" />
+          <h3>Colleague Name</h3>
+          <h4>Architect</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            deserunt illum cupiditate modi ratione animi dicta accusamus
+            aspernatur iusto vero.
+          </p>
+        </article>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <h2 class="section__title">contact</h2>
+
+        <div class="contact__wrap">
+          <div>
+            <div class="contact__info">
+              <div>
+                <h2>Contact us via email, phone or come by into our office!</h2>
+                <ul class="contact__options">
+                  <li style="text-decoration: underline">
+                    <i class="fas fa-envelope"></i>info@airhitect.com
+                  </li>
+                  <li>
+                    <i class="fas fa-phone"></i> +12 34 567 890 <br />
+                    +09 87 654 321
+                  </li>
+                  <li>
+                    <i class="fas fa-home"></i> 1012 Budapest <br />
+                    Márvány utca 16
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <ul class="contact__social-media">
+                  <li><i class="fab fa-linkedin"></i></li>
+                  <li><i class="fab fa-facebook"></i></li>
+                  <li><i class="fab fa-instagram"></i></li>
+                  <li><i class="fab fa-google"></i></li>
+                </ul>
+
+                <div class="contact__hiring">
+                  <h3>We are hiring!</h3>
+                  <p>
+                    We are looking for new talents to join our team! If you
+                    think you are the right person for AIRhitect send us an
+                    email with your CV and portfolio. Don't forget to write a
+                    little about yourself!
+                  </p>
+                  <p style="text-decoration: underline">job@airhitect.com</p>
+                </div>
+              </div>
+            </div>
+
+            <form id="contact__form">
+              <input type="text" name="name" placeholder="Name" />
+              <input type="email" name="email" placeholder="E-mail" />
+              <input type="text" name="subject" placeholder="Subject" />
+              <textarea name="message" placeholder="Message"></textarea>
+              <input type="submit" value="SEND MESSAGE" />
+            </form>
+          </div>
+
+          <div class="contact__map">
+            <img src="img/map.png" alt="Map" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
