@@ -424,6 +424,8 @@ body {
   font-size: 1rem;
   padding: 0.5rem;
   cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: none;
 }
 
 #contact .contact__map img {
